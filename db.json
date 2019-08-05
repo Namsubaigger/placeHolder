@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john@gmail.com",
+      "age": 30,
+      "companyID": "1"
+    },
+    {
+      "id": "2",
+      "firstName": "Martin",
+      "lastName": "Wood",
+      "email": "Martin@gmail.com",
+      "age": 23,
+      "companyID": "2"
+    },
+    {
+      "id": "3",
+      "firstName": "Alex",
+      "lastName": "Lousis",
+      "email": "Alex@gmail.com",
+      "age": 34,
+      "companyID": "3"
+    },
+    {
+      "id": "4",
+      "firstName": "Troy",
+      "lastName": "Austin",
+      "email": "troy@gmail.com",
+      "age": 43,
+      "companyID": "1"
+    },
+    {
+      "firstName": "Mike",
+      "lastName": "Peterson",
+      "email": "mike@gmail.com",
+      "age": 19,
+      "companyID": "2",
+      "id": "ohYT2L3"
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "apple",
+      "description": "Apple is the best Company"
+    },
+    {
+      "id": "2",
+      "name": "Google",
+      "description": "Google is the best Company"
+    },
+    {
+      "id": "3",
+      "name": "MicroSoft",
+      "description": "MicroSoft is the best Company"
+    }
+  ]
+}
