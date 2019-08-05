@@ -1,0 +1,545 @@
+const Data = [
+    {
+        contactInfo =[
+            {
+                iconClass: `fas fa-map-marker-alt`,
+                info: `19th Ave New York, NY 95822, USA`,
+            },
+            {
+                iconClass: `fas fa-phone`,
+                info: `+1 916-875-2235`,
+            },
+            {
+                iconClass: `fas fa-fax`,
+                info: `+1 916-875-2235`,
+            },
+            {
+                iconClass: `fas fa-envelope`,
+                info: `info@domain.tld`,
+            },
+        ],
+        socialIcons: [
+            `fab fa-facebook-square`,
+            `fab fa-linkedin`,
+            `fab fa-twitter`,
+            `fab fa-instagram`,
+            `fab fa-google-plus-g`,
+            `fab fa-snapchat-ghost`,
+        ]
+    },
+    {
+        logo: `http://codex-themes.com/scalia/wp-content/themes/scalia/images/default-logo.png`,
+        items: [
+            `Pages`,
+            `Blogs`,
+            `Portfolio`,
+            `Galleries`,
+            `QuickFinders`,
+            `Shop`,
+            `Features`,
+            `Elements`,
+        ]
+    },
+    {
+        child1: {
+            background: `https://codex-themes.com/scalia/wp-content/uploads/2015/06/Slide-1-Back-Dark21.jpg`,
+            heading1: `New Trendsetter In PremiumBusiness WordPress Themes!`,
+        },
+        child2: {
+            background: ` https://codex-themes.com/scalia/wp-content/uploads/2015/06/Slide-6-Devices.jpg   `,
+            heading1: `STUNNING WEBSITES & SHOPS.CREATIVE BLOGS & PORTFOLIOS.CHARMING ONE-PAGERS.`,
+            heading2: `Be Inspired With Scalia'sUnlimited Applications!`,
+        },
+        child3: {
+            background: `https://codex-themes.com/scalia/wp-content/uploads/2015/06/Slide-6-Devices.jpg`,
+            heading1: `GOOGLE'S FRIEND.MOBILES' STAR.RETINA'S LOVER.`,
+            heading2: `Scalia Is SEO Optimized.It Look Perfect On AnyDevice & Retina Screen.`,
+        },
+        child4: {
+            background: `https://codex-themes.com/scalia/wp-content/uploads/2015/06/Slide-4-Back11.jpg`,
+            heading1: `EASY TO USE.`,
+            heading2: `EASY TO CUSTOMIZE.`,
+            heading3: `EASY TO UPDATE.`,
+            heading4: `Drag'n'Drop Page Builder. Intuitive Admin Panel.Everything extremely easy to use.`,
+        },
+        child5: {
+            background: `https://codex-themes.com/scalia/wp-content/uploads/2015/03/Slide-2-Back-Flatten.jpg`,
+            heading1: `OUTSTANDING DESIGNS.TONS OF TEMPLATES.FREE SUPERFAST SUPPORT.`,
+            heading2: `Scalia Delivers Everything YouCan Ever Expect From BuyingAn Ultimate WP Theme!`,
+        }
+    },
+    [
+        {
+            iconClass: `fas fa-flask`,
+            heading: `HI-TECH`,
+            desc: `Scalia is future-proof best-of-breed premium theme with unlimited styling customization options`,
+        },
+        {
+            iconClass: `fas fa-gem`,
+            heading: `PRECISE`,
+            desc: `With Scalia you will make beautiful pixel perfect pages, with every element precisely positioned`,
+        },
+        {
+            iconClass: `fas fa-balance-scale`,
+            heading: `FLEXIBLE`,
+            desc: `Bunch of styles, features, elements & samples give you an absolute design freedom in creating webpages`,
+        },
+        {
+            iconClass: `fas fa-cookie-bite`,
+            heading: `EASY-TO-USE`,
+            desc: `Equipped with industry's leading page builder & admin panel. With lifetime support for any questions`,
+        }
+    ],
+    {
+        heading: `WHY SCALIA?`,
+        para: `Scalia stays for scalability, power & perfection. It is a best-of-breed most advanced premium wordpress theme on market. With Scalia you can run any website. Awesome blogs, creative portfolios, powerful shops, attractive corporate & product presentations etc. Make anything you can imagine with this multipurpose theme. Check the rich diversity of our demos. All of them are carefully prepared & included for easy & quick start. Of course you can change any styles, any layouts without touching a line of code.  And for any questions you can ever have… just ask. Our support quality has 5 Stars!
+        Why Scalia? Because it is your point on no return. Try it once and you will love it forever.`,
+        buttons: [
+            `BUY NOW`,
+            `LEARN MORE`
+        ],
+    },
+    {
+        goals: {
+            heading: `OUR GOALS`,
+            points: [
+                {
+                    number: 1,
+                    desc: `Leading WP theme`,
+                },
+                {
+                    number: 2,
+                    desc: `Steady updates`,
+                },
+                {
+                    number: 3,
+                    desc: `Satisfied customers`,
+                },
+            ],
+            button: "LEARN MORE",
+        },
+        strengths: {
+            heading: "OUR STRENGHTS",
+            desc: `Term sheet convertible note colluding bootstrapping. Cloud computing subscription model out of the box proactive solution.`,
+            info: [
+                {
+                    topic: "Usability & Design",
+                    percentage: 89,
+                },
+                {
+                    topic: "Conceptual Analysis",
+                    percentage: 74,
+                },
+                {
+                    topic: "Programming",
+                    percentage: 95,
+                },
+            ],
+            button: "READ MORE",
+        },
+        services: {
+            heading: "OUR SERVICES",
+            points: [
+                {
+                    head: "ALL-IN-ONE WORDPRESS THEME",
+                    desc: "Unlimited customization options, fonts & colors. Ready-to-use design styles.",
+                },
+                {
+                    head: "SEO & MULTILINGUAL READY",
+                    desc: "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie.",
+                },
+                {
+                    head: "RESPONSIVE & RETINA OPTIMIZED",
+                    desc: "Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio.",
+                },
+            ],
+            button: "BUY SCALIA",
+        },
+
+    },
+    {
+        heading: "LATEST PROJECTS",
+        desc: "Showcase your projects & creative works on your homepage using Scalia’s awesome portfolio sliders",
+
+        items: [
+            {
+                img: "http://codex-themes.com/scalia/wp-content/uploads/2014/08/05-Face-For-Triangulator-1_1-high-scalia-portfolio-justified.jpg",
+                head: "UNIVERSAL PROJECT",
+                desc: "Universal Fullwidth Portfolio Page2 August, 2014 in  Highlights",
+            },
+            {
+                img: "http://codex-themes.com/scalia/wp-content/uploads/2015/01/02-Face-For-Triangulator-1_1-high-scalia-portfolio-justified.jpg",
+                head: "PHOTOGRAPHY PROJECT",
+                desc: "Gallery, Photostream, Customer & Project Description6 November, 2014 in  Highlights",
+            },
+            {
+                img: "http://codex-themes.com/scalia/wp-content/uploads/2014/11/06-Face-Triangulated-1_1-scalia-portfolio-justified1-scalia-portfolio-justified.jpg",
+                head: "VIDEO PROJECT",
+                desc: "Video Project Page With Contact Form 5 November, 2014 in  Highlights",
+            },
+            {
+                img: "http://codex-themes.com/scalia/wp-content/uploads/2014/11/01-Face-For-Triangulator-1_2-scalia-portfolio-justified.jpg",
+                head: "PROJECT HIGHLIGHTS",
+                desc: "Page With Depiction Of Project Highlights 6 November, 2014 in  Highlights",
+            },
+            {
+                img: "http://codex-themes.com/scalia/wp-content/uploads/2015/01/04-Face-For-Triangulator-1_1-high-scalia-portfolio-justified.jpg",
+                head: "CREATE ANY LAYOUT",
+                desc: "Page With Depiction Of Project Highlights 6 November, 2014 in  Highlights",
+            },
+            {
+                img: "http://codex-themes.com/scalia/wp-content/uploads/2014/11/03-Face-For-Triangulator-1_1-high-scalia-portfolio-justified-scalia-portfolio-justified.jpg",
+                head: "METRO GALLERY INSIDE",
+                desc: "Project Description With Metro Gallery Inside 5 November, 2014 in  Highlights",
+            },
+        ]
+    },
+    {
+        heading: "LAST YEAR STATISTIC",
+        desc: "The success story of Scalia. In facts & numbers",
+        icons: [
+            {
+                iconClass: "fas fa-truck-moving",
+                number: 3042,
+                topic: "Deliveries",
+            },
+            {
+                iconClass: "fas fa-pencil-alt",
+                number: 209,
+                topic: "Projects done",
+            },
+            {
+                iconClass: "far fa-heart",
+                number: 5760,
+                topic: "Happy clients",
+            },
+            {
+                iconClass: "fas fa-database",
+                number: 2315,
+                topic: "Downloads",
+            },
+        ]
+    },
+    {
+        heading: "OUR NEWS",
+        news: [
+            {
+                pic: "http://codex-themes.com/scalia/wp-content/uploads/2015/01/shutterstock_228152602-scalia-news-carousel.jpg",
+                topic: "Glamour Photoshooting",
+                desc: "Enjoy this amazing exclusive glamour photoshooting made by Scalia’s makers",
+                date: "10 Jan 2015",
+            },
+            {
+                pic: "http://codex-themes.com/scalia/wp-content/uploads/2014/09/grass-scalia-news-carousel.jpg",
+                topic: "Glamour Photoshooting",
+                desc: "Enjoy this amazing exclusive glamour photoshooting made by Scalia’s makers!",
+                date: "10 Jan 2015",
+            },
+            {
+                pic: "http://codex-themes.com/scalia/wp-content/uploads/2014/10/2-scalia-news-carousel.jpg",
+                topic: "New Survey Is Online!",
+                desc: "In convallis mauris non pretium tincidunt. Ut quam tortor, iaculis eu adipiscing ut, ",
+                date: "8 Jan 2015",
+            },
+            {
+                pic: "http://codex-themes.com/scalia/wp-content/uploads/2014/12/featured_147893546-scalia-news-carousel.jpg",
+                topic: "Metro Gallery Updates",
+                desc: "Etiam ac eros vel neque varius cursus. Aliquam mauris tortor, laoreet eleifend dui a, ",
+                date: "7 Jan 2015",
+            },
+            {
+                pic: "http://codex-themes.com/scalia/wp-content/uploads/2014/11/seagull-183229_1280-scalia-news-carousel.jpg",
+                topic: "New Videos Available",
+                desc: "Phasellus eleifend nibh vitae pulvinar euismod. Etiam a libero eu leo sodales tincidunt ",
+                date: "7 Jan 2015",
+            },
+            {
+                pic: "http://codex-themes.com/scalia/wp-content/uploads/2014/12/30047054-scalia-news-carousel.jpg",
+                topic: "Extensive Resources Enabled",
+                desc: "Cras mauris eros, faucibus a pellentesque sed, rutrum et ",
+                date: "7 Jan 2015",
+            },
+            {
+                pic: "http://codex-themes.com/scalia/wp-content/uploads/2014/08/photodune-6079108-opt-scalia-news-carousel.jpg",
+                topic: "Vivamus a congue orci",
+                desc: "Etiam ac eros vel neque varius cursus. Aliquam mauris tortor, laoreet eleifend dui a, ",
+                date: "7 Jan 2015",
+            },
+            {
+                pic: "http://codex-themes.com/scalia/wp-content/uploads/2014/12/featured_141236470-scalia-news-carousel.jpg",
+                topic: "Fullwidth Areas With Galleries",
+                desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+                date: "7 Jan 2015",
+            },
+            {
+                pic: "http://codex-themes.com/scalia/wp-content/uploads/2014/11/fruits-oranges-3397-scalia-news-carousel.jpg",
+                topic: "Collaboratively Administrate Markets",
+                desc: "Authoritatively reintermediate client-focused outsourcing ",
+                date: "7 Jan 2015",
+            },
+
+        ],
+        buttom: "READ ALL NEWS",
+
+        upComingEvents: {
+            heading: "UPCOMING EVENTS",
+            events: [
+                {
+                    iconImg: "http://codex-themes.com/scalia/wp-content/uploads/2015/01/3.png",
+                    desc: "Official meetup web-developers to utilize market applications",
+                    date: "28 Jan 2015",
+                },
+                {
+                    iconImg: "http://codex-themes.com/scalia/wp-content/uploads/2015/01/2.png",
+                    desc: "Corporate party to unleash covalent collaboration options",
+                    date: "20 Jan 2015",
+                },
+                {
+                    iconImg: "http://codex-themes.com/scalia/wp-content/uploads/2015/01/1.png",
+                    desc: "Business masterclass to streamline extensible leadership skills",
+                    date: "17 Jan 2015",
+                },
+            ],
+            button: "See All Events",
+        },
+        vacancies: {
+            heading: "OPEN VACANCIES",
+            list: [
+                "Senior Global Optimization Designer",
+                "Primary Legacy Brand Designer",
+                "Secondary Global Marketing Agent",
+                "Direct Usability Administrator / UX Specialist",
+                "Human Infrastructure Liason Aiming For PR",
+                "Universal International Security Strategist",
+                "Main Product Solutions Guide Supervisor",
+                "Secondary Global Marketing Agent",
+            ],
+            button: "Full list of vacancies",
+        },
+        clientList: {
+            heading: "CLIENTS LIST",
+            listImgs: [
+                "http://codex-themes.com/scalia/wp-content/uploads/2014/12/Logo-01-scalia-person.png",
+                "http://codex-themes.com/scalia/wp-content/uploads/2014/12/Logo-02-scalia-person.png",
+                "http://codex-themes.com/scalia/wp-content/uploads/2014/12/Logo-03-scalia-person.png",
+                "http://codex-themes.com/scalia/wp-content/uploads/2014/12/Logo-04-scalia-person.png",
+                "http://codex-themes.com/scalia/wp-content/uploads/2014/07/Logo-20-scalia-person.png",
+                "http://codex-themes.com/scalia/wp-content/uploads/2014/07/Logo-21-scalia-person.png",
+                "http://codex-themes.com/scalia/wp-content/uploads/2014/07/Logo-18-scalia-person.png",
+                "http://codex-themes.com/scalia/wp-content/uploads/2014/07/Logo-17-scalia-person.png",
+                "http://codex-themes.com/scalia/wp-content/uploads/2014/07/Logo-16-scalia-person.png",
+                "http://codex-themes.com/scalia/wp-content/uploads/2014/07/Logo-15-scalia-person.png",
+                "http://codex-themes.com/scalia/wp-content/uploads/2014/07/Logo-14-scalia-person.png",
+                "http://codex-themes.com/scalia/wp-content/uploads/2014/07/Logo-13-scalia-person.png",
+                "http://codex-themes.com/scalia/wp-content/uploads/2014/07/Logo-12-scalia-person.png",
+                "http://codex-themes.com/scalia/wp-content/uploads/2014/07/Logo-11-scalia-person.png",
+                "http://codex-themes.com/scalia/wp-content/uploads/2014/07/Logo-19-scalia-person.png",
+                "http://codex-themes.com/scalia/wp-content/uploads/2014/07/Logo-10-scalia-person.png",
+                "http://codex-themes.com/scalia/wp-content/uploads/2014/07/Logo-09-scalia-person.png",
+                "http://codex-themes.com/scalia/wp-content/uploads/2014/12/Logo-06-scalia-person.png",
+                "http://codex-themes.com/scalia/wp-content/uploads/2014/12/Logo-07-scalia-person.png",
+                "http://codex-themes.com/scalia/wp-content/uploads/2014/12/Logo-08-scalia-person.png",
+            ],
+        }
+    },
+    {
+        logo: "http://codex-themes.com/scalia/wp-content/uploads/2014/07/scalia.png",
+        desc: "Enjoy the diversity of Scalia! Create the site of your dreams in a few clicks with all demo content included.",
+        button: "PURCHASE SCALIA",
+    },
+    [
+        {
+            pic: "http://codex-themes.com/scalia/wp-content/uploads/2014/09/Faces-400x400px-1_1_18-scalia-testimonial.jpg",
+            desc: "…Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+            name: "Jeniffer Burns",
+            rank: "Marketing Manager, Creative Heads Inc.",
+
+        },
+        {
+            pic: "http://codex-themes.com/scalia/wp-content/uploads/2014/07/Faces-400x400px-1_1_07-scalia-testimonial.jpg",
+            desc: "…Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+            name: "Marcus Fields",
+            rank: "Chief Inventor, Innovations Lab",
+        }
+    ],
+    {
+        first: {
+            heading: "JUST FEW INCREDIBLE FEATURES",
+            points: [
+                {
+                    icon: "fab fa-telegram-plane",
+                    head: "FUN & EASY SETUP",
+                    desc: "Scalia is ready to run with just few clicks out-of-the-box. With bunch of demo content & samples included.",
+                },
+                {
+                    icon: "fas fa-tshirt",
+                    head: "READY-TO-USE TEMPLATES",
+                    desc: " Scalia comes with large variety of awesome templates, carefully hand-made to meet your needs.",
+                },
+                {
+                    icon: "fas fa-thumbs-up",
+                    head: "OUTSTANDING SUPPORT",
+                    desc: "Our support quality has 5 Stars. And it is free for you. Your satisfaction with Scalia is our primary goal!",
+                },
+                {
+                    icon: "fas fa-globe",
+                    head: "SEO & WPML READY",
+                    desc: "Scalia’s code meets best SEO practices. Compatible with Yoast & other SEO plugins. Fully Multi-Lingual with WMPL",
+                },
+            ],
+            compImg: "http://codex-themes.com/scalia/wp-content/uploads/2014/10/monit-22.png",
+        },
+        second: {
+            heading: "Awesome Top-Notch Design",
+            topic: "Everything Customizable!",
+            desc: "This premium all-in-one theme is made in modern, trendy design style. Beautiful pleasant color palettes. Comfortable & elegant fonts. Flexible layouts & stunning variety of various design templates. With unlimited customization options for almost each & every website element.",
+        },
+        third: {
+            icon: "fas fa-mountains",
+            heading: "Ideal For Any Kind Of Business!",
+            desc: "Creative Portfolio, Presentation, Corporative Blog, Shop… Buy Scalia Now And…",
+            button: "MAKE YOUR CLIENT HAPPY",
+        },
+    },
+    {
+        desc: "This is just one example of pricing tables you can create with Scalia. On our demo website we have presented just some examples of what you can make with Scalia. All these elements, colors, layouts etc. are fully customizable. Combine Scalia’s design options to get it looking the way you want it!",
+
+        basic: {
+            heading: "BASIC",
+            money: "$20 Per Month",
+            list: [
+                "Quickly communicate",
+                "Enabled technology",
+                "Turnkey leadership skills",
+                "Uniquely supply",
+                "Chains rather than frictionless",
+            ],
+            button: "ORDER",
+        },
+        standard: {
+            heading: "STANDARD",
+            subHead: "Most popular plan",
+            money: "$50 Per Month",
+            list: [
+                "Quickly communicate",
+                "Enabled technology",
+                "Turnkey leadership skills",
+                "Uniquely supply",
+                "Chains rather than frictionless",
+            ],
+            button: "ORDER",
+        },
+        advance: {
+            heading: "ADVANCED",
+            money: "$75 Per Month",
+            list: [
+                "Quickly communicate",
+                "Enabled technology",
+                "Turnkey leadership skills",
+                "Uniquely supply",
+                "Chains rather than frictionless",
+            ],
+            button: "ORDER",
+        },
+        advance: {
+            heading: "PREMIUM",
+            money: "$200 Per Month",
+            list: [
+                "Quickly communicate",
+                "Enabled technology",
+                "Turnkey leadership skills",
+                "Uniquely supply",
+                "Chains rather than frictionless",
+            ],
+            button: "ORDER",
+        },
+    },
+    {
+        upper: [
+            {
+                heading: "BUSINESS HOURS",
+                icon: "fas fa-clock",
+                list: [
+                    "Monday – Friday: 8:00 – 16:30 Hrs (Phone until 17:30 Hrs)",
+                    "Saturday: 8:00 – 18:30 Hrs",
+                    "Sunday: 11:00 – 15:00 Hrs (Phone until 16:30 Hrs)",
+                ]
+            },
+            {
+                heading: "WE ARE HERE",
+                icon: "fas fa-map-marker-alt",
+                list: [
+                    "Beechwood Dr, Lawrence, NY 11559, USA",
+                    "Phone: +1 916-875-2235, Fax: +1 916-875-0000",
+                    "Email: info@domain.tld",
+                ],
+            },
+        ],
+        lower: {
+            list: [
+                "Home",
+                "Disclaimer",
+                "Terms of Use",
+                "Let's Add More",
+            ],
+            socialIcons: [
+                `fab fa-facebook-square`,
+                `fab fa-linkedin`,
+                `fab fa-twitter`,
+                `fab fa-instagram`,
+                `fab fa-google-plus-g`,
+                `fab fa-snapchat-ghost`,
+            ]
+        }
+    },
+    {
+        contact:{
+            heading:"CONTACTS",
+            info:[
+                {
+                    icon:"fas fa-map-marker-alt",
+                    desc:"19th Ave New York, NY 95822, USA",
+                },
+                {
+                    icon:"fas fa-phone",
+                    desc:"Phone: +1 916-875-2235",
+                },
+                {
+                    icon:"fas fa-fax",
+                    desc:"Fax: +1 916-875-2235",
+                },
+                {
+                    icon:"fas fa-envelope",
+                    desc:"Email: info@domain.tld",
+                },
+                {
+                    icon:"fas fa-globe",
+                    desc:"Website: www.codex-themes.com",
+                },
+
+            ]
+        },
+        recentPosts:{
+            heading:"RECENT POSTS",
+            posts:[
+                {
+                    icon:"fas fa-lightbulb",
+                    desc:"Birthday party developer internet of things bleeding edge.",
+                    date:"5 Dec 2014",
+                },
+                {
+                    icon:"fas fa-calendar-week",
+                    desc:"Official meetup developer internet of things bleeding edge.",
+                    date:"5 Dec 2014",
+                },
+            ]
+        },
+        news:{
+            heading:"NEWSLETTER",
+            desc:"Subscribe today to our MailChimp newsletter and stay up to date with all events coming straight in your mailbox:",
+            button:"SIGN UP"
+        },
+
+        copyright:"2015 © Copyrights CodexThemes",
+    },
+]
